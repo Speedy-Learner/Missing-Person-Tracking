@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AWS Java Web Project</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <div id="content" class="container">
+
+      <div style="height: 10px;"> </div>
+	<header style="background-image:url('missingheader.jpg')">
+      <h2 align="center">
+      Welcome to Missing Person Finder Website
+      </h2>
+      <h4 align="center">Missing someone; we will find them for you.</h4>
+</header>
+     <hr>
+      <form name="submitform" action="ControllerServlet" method="post">
+      <table border="1pt solid black">
+      <tr>
+      	<td rowspan="2" style="width:30%">
+		      <div > 
+		      <img src="missingicon.jpg" alt="blank"></img>
+		      </div>
+		 </td>
+		<td>
+		      	<p align="center">Browse image to upload: <input type="file" name="imgFile" id="img" required="required">
+		 			
+		     </p>
+		      	<p align="center">Browse video to upload: <input type="file" name="videoFile" id="video" required="required">
+		     </p>
+		     <p align="center"><input type="submit" Value="Upload" id="upload"/></p>
+		      </td>
+		      </tr>
+     </table>
+     </form>
+     <hr>
+      <footer style="background-image:url('missingheader.jpg')">
+      <div align="center"><p><small> &copy; 2018. All Rights Reserved.</small></p></div>
+      </footer>
+    </div>
+  </body>
+</html>
